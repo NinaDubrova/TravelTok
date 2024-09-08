@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(',')
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Подключение Django rest framework.
+    "rest_framework",
     # Внешние установленные приложения.
     "tours.apps.ToursConfig",
     "users.apps.UsersConfig",
