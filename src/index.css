@@ -12,6 +12,15 @@ p{
     font-family: Helvetica, Neue;
 }
 
+span{
+    font-family: Helvetica, Neue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body{
     background-color: #E8F4FF;
 }
