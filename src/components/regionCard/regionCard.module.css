@@ -1,0 +1,17 @@
+.card{
+    min-width: 303px;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    align-items: end;
+    h2{
+        margin: 15px;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+    }
+    img{
+        position: absolute;
+        z-index: -1;
+    }
+}
