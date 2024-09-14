@@ -1,7 +1,7 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
 import Home from '../pages/Home/Home.jsx'
-import Layout from '../components/Layout/Layout.jsx'
+import Layout from '../layouts/Layout/Layout.jsx'
 
 const MainRoutes = () => {
   return (
