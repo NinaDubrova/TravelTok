@@ -5,6 +5,7 @@ import dateIcon from '../../assets/HomeAssets/date.svg'
 import regionIcon from '../../assets/HomeAssets/region.svg'
 import priceIcon from '../../assets/HomeAssets/price.svg'
 import FilterButton from '../../components/FilterButton/FilterButton'
+import Regions from '../../modules/regions/regions'
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Regions/>
     </div>
   )
 }
