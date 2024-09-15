@@ -13,7 +13,7 @@ import telegram from '../../assets/icons/telegram.svg'
 const Footer = () => {
     return (
         <footer>
-            <h1>Traveltok</h1>
+            <a href="/"><h1>Traveltok</h1></a>
             <nav>
                 <ul>
                     <li><a href="">О нас</a></li>
@@ -31,11 +31,11 @@ const Footer = () => {
                     <li><img src={call} alt="" /><a href="">+996 (999) 999-999</a></li>
                 </ul>
                 <div>
-                    <img src={insta} alt="" />
-                    <img src={threads} alt="" />
-                    <img src={x} alt="" />
-                    <img src={facebook} alt="" />
-                    <img src={telegram} alt="" />
+                    <a href=""><img src={insta} alt="" /></a>
+                    <a href=""><img src={threads} alt="" /></a>
+                    <a href=""><img src={x} alt="" /></a>
+                    <a href=""><img src={facebook} alt="" /></a>
+                    <a href=""><img src={telegram} alt="" /></a>
                 </div>
             </div>
         </footer>

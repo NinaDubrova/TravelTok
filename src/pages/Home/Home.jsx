@@ -6,6 +6,7 @@ import regionIcon from '../../assets/HomeAssets/region.svg'
 import priceIcon from '../../assets/HomeAssets/price.svg'
 import FilterButton from '../../components/FilterButton/FilterButton'
 import Regions from '../../modules/regions/regions'
+import { showError, showSuccess } from '../../utils/alerts/alerts'
 
 const Home = () => {
   return (
@@ -39,6 +40,13 @@ const Home = () => {
         </div>
       </section>
       <Regions/>
+{/* Toastify */}
+      <center>
+        <button onClick={() => showSuccess('Toastify-Success')}>Toastify-Success</button>
+        -----
+        <button onClick={() => showError('Toastify-Error')}>Toastify-Error</button>
+      </center>
+{/* Toastify */}
     </div>
   )
 }

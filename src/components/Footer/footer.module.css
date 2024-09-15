@@ -20,6 +20,9 @@ footer{
             display: flex;
             flex-direction: column;
             gap: 16px;
+            a:hover{
+                text-decoration: underline;
+            }
         }
     }
     ul{
