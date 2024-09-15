@@ -11,6 +11,7 @@ const Regions = () => {
             {REGIONS_DATA.map((item, idx)=>{
                 return (
                     <RegionCard
+                    key={idx} //fix
                     title={item.title}
                     img={item.icon}
                 />

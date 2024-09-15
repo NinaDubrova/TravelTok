@@ -6,15 +6,16 @@ import user from '../../assets/HeaderAssets/user.svg'
 import userw from '../../assets/HeaderAssets/user-w.svg'
 
 const Header = () => {
+  
+  const {header, header__navbtns} = styles;
+
   return (
-    <header className={styles.header}>
+    <header className={header}>
       <h1><a href="/">TRAVELTOK</a></h1>
-      <nav className={styles.header__navbtns}>
+      <nav className={header__navbtns}>
         <a href="#">
           <Button
             width='90px'
-            bgColor=''
-            textColor=''
             text='Чат'
             icon={chat}
           ></Button>
@@ -23,8 +24,6 @@ const Header = () => {
         <a href="#">
           <Button
             width='160px'
-            bgColor=''
-            textColor=''
             text='Для авторов'
             icon={user}
           ></Button>
