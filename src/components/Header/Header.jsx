@@ -29,7 +29,7 @@ const Header = () => {
           ></Button>
         </a>
 
-        <a href="#">
+        <a href="/registration">
           <Button
             width='110px'
             bgColor='#FFFFFF'

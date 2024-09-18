@@ -36,7 +36,6 @@ const RecentToursCard = (props) => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
