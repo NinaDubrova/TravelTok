@@ -7,9 +7,9 @@ import Line from "../../assets/registration/Line 3.svg";
 
 const LogIn = () => {
     return (
-        <div className={styles.registration}
+        <div className={styles.login}
              style={{background: `url(${Img}) no-repeat center/cover`, backgroundSize: "100%"}}>
-            <div className={styles.registrationWrapper}>
+            <div className={styles.loginWrapper}>
                 <div className={styles.arrowWrapper}>
                     <button className={styles.arrow}><img src={Arrow} alt=""/></button>
                     <h1>Вход в аккаунт</h1>
@@ -22,9 +22,9 @@ const LogIn = () => {
                         <input type="password" placeholder={'Пароль'}/>
                     </div>
                 </div>
-                <div className={styles.regisEnd}>
-                    <a href="/registration-success">
-                        <button className={styles.regis}>Продолжить через email</button>
+                <div className={styles.loginEnd}>
+                    <a href="/#">
+                        <button className={styles.continue}>Продолжить через email</button>
                     </a>
                     <div className={styles.line}>
                         <img src={Line} alt=""/>
