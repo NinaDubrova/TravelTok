@@ -1,13 +1,14 @@
 import { ToastContainer } from 'react-toastify'
-import './App.css'
 import 'react-toastify/dist/ReactToastify.css';
-import './App.css'
 import MainRoutes from './routes/MainRoutes.jsx'
+import AdminRoutes from './routes/AdminRoutes.jsx';
+import './styles/App.css'
 
 function App() {
   return (
     <div className='app-container'>
       <MainRoutes/>
+      <AdminRoutes/>
       <ToastContainer
               position="top-right"
               autoClose={2000}
