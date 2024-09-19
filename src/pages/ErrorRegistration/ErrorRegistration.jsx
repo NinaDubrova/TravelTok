@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../Successfully/Successfully.module.css";
+import styles from "../ErrorRegistration/ErrorRegistration.module.css";
 import Img from "../../assets/registration/regis.svg";
 
 const ErrorRegistration = () => {

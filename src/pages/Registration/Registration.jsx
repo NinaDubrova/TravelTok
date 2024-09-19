@@ -2,17 +2,24 @@ import React from 'react';
 import styles from '../Registration/Registration.module.css';
 import Img from '../../assets/registration/regis.svg'
 import Icon from '../../assets/registration/icon.svg'
+import Arrow from '../../assets/registration/arrow.svg'
+import Line from "../../assets/registration/Line 3.svg";
 
 const Registration = () => {
     return (
-        <div className={styles.registration} style={{ background: `url(${Img}) no-repeat center/cover` }}>
+        <div className={styles.registration} style={{ background: `url(${Img}) no-repeat center/cover`,backgroundSize:"100%" }}>
             <div className={styles.registrationWrapper}>
-                <h1>Регистрация</h1>
+                <div className={styles.arrowWrapper}>
+                    <button className={styles.arrow}><img src={Arrow} alt=""/></button>
+                    <h1>Регистрация</h1>
+                </div>
                 <div className={styles.google}>
                     <button type={"submit"}><img src={Icon} alt=""/> Продолжить с Google</button>
                 </div>
                 <div className={styles.line}>
+                    <img src={Line} alt=""/>
                     <h2>Или</h2>
+                    <img src={Line} alt=""/>
                 </div>
 
 

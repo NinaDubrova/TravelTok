@@ -21,7 +21,7 @@ const Header = () => {
           ></Button>
         </a>
 
-        <a href="#">
+        <a href="/admin">
           <Button
             width='160px'
             text='Для авторов'

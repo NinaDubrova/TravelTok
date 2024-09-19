@@ -35,18 +35,6 @@
     width: 318px;
     height: 48px;
 }
-.firstName{
-    width: 159px;
-    border: none;
-    border-radius: 15px 0 0 15px;
-    padding: 14px 25px 14px 25px;
-}
-.secondName{
-    width: 159px;
-    border: none;
-    border-radius: 0 15px 15px 0;
-    padding: 14px 25px 14px 25px;
-}
 .google button{
     padding: 12px 71px 12px 71px;
     border: none;
@@ -90,8 +78,5 @@
 }
 .arrowWrapper{
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 70px;
 
 }
