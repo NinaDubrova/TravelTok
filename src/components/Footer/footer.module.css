@@ -5,6 +5,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
+    font-family: Helvetica, Neue;
 
     h1{
         text-transform: uppercase;
