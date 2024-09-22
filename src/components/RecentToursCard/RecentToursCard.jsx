@@ -11,17 +11,18 @@ const RecentToursCard = (props) => {
         price,
         dateStart,
         dateEnd,
-        starTitle
+        starTitle,
+        miniCard
     } = props
 
     return (
-        <div className={styles.card}>
+        <div className={miniCard? styles.mini_card : styles.card}>
             <div>
                 <div className={styles.desc}>
                     <p>{desc}</p>
                     <img src={Avatar} alt=""/>
                 </div>
-                <img src={img} alt=""/>
+                <img src={img} alt="" className={styles.img}/>
                 <div className={styles.info}>
                     <div className={styles.infoWrapper}>
                         <h2>{price}</h2>
@@ -30,10 +31,12 @@ const RecentToursCard = (props) => {
                             <h3>{starTitle}</h3>
                         </div>
                     </div>
+                    {dateStart && 
                     <div className={styles.date}>
                         <h4>Дата начало:{dateStart}</h4>
                         <h4>Дата конца:{dateEnd}</h4>
                     </div>
+                    }
                 </div>
             </div>
         </div>
