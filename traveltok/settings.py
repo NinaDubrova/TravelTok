@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     # Установленные внешние приложения.
     "users.apps.UsersConfig",
     "tours.apps.ToursConfig",
+    "bookings.apps.BookingsConfig",
+    "payments.apps.PaymentsConfig"
 ]
 
 # Переменная, отвечающая за аутентификацию.
