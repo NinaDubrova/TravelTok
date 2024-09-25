@@ -1,0 +1,18 @@
+.recent{
+    background: #E8F4FF;
+    position: relative;
+    z-index: -2;
+    padding: 48px 0;
+    h1{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 44px;
+        font-weight: 500;
+    }
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 34px;
+}

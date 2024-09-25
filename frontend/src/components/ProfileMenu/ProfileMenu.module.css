@@ -1,0 +1,31 @@
+.card{
+    width: 26.4vw;
+    height: 233px;
+    padding: 0 44px 0 44px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        li{
+            display: flex;
+            gap: 23px;
+            a{
+                font-size: 17px;
+                font-weight: 400;
+                color: #000;
+                text-decoration: none;
+                &:hover{
+                    color: #0055A9;
+                }
+            }
+        }
+    }
+}
+.active{
+    color: #0055A9 !important;
+}
