@@ -10,7 +10,7 @@ const Home = () => {
     <main className={styles.home}>
       <HeroSection/>
       <Regions/>
-        <RecentTours/>
+      <RecentTours/>
 {/* Toastify */}
       <center>
         <button onClick={() => showSuccess('Toastify-Success')}>Toastify-Success</button>

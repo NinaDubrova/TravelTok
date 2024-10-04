@@ -1,0 +1,10 @@
+.catalog{
+    background: #E8F4FF;
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 10px;
+    position: relative;
+    z-index: -2;
+}
