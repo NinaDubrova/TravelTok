@@ -3,6 +3,7 @@ import styles from './Header.module.css'
 import Button from '../Button/Button';
 import chat from '../../assets/HeaderAssets/chat.svg'
 import user from '../../assets/HeaderAssets/user.svg'
+import author from '../../assets/HeaderAssets/authors.png'
 import userw from '../../assets/HeaderAssets/user-w.svg'
 
 const Header = () => {
@@ -35,7 +36,7 @@ const Header = () => {
           <Button
             width='160px'
             text='Для авторов'
-            icon={user}
+            icon={author}
           ></Button>
         </a>
 

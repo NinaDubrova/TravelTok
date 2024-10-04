@@ -8,15 +8,17 @@ import RecentTours from "../../modules/RecentTours/recentTours.jsx";
 const Home = () => {
   return (
     <main className={styles.home}>
-      <HeroSection/>
+      <HeroSection 
+      title={"ЛУЧШИЙ ПУТЕВОДИТЕЛЬ В КЫРГЫЗСТАНЕ"} 
+      subtitle={"Мы предлагаем уникальные туристические маршруты,\n адаптированные под ваши предпочтения."}/>
       <Regions/>
-        <RecentTours/>
+      <RecentTours/>
 {/* Toastify */}
-      <center>
+      {/* <center>
         <button onClick={() => showSuccess('Toastify-Success')}>Toastify-Success</button>
         -----
         <button onClick={() => showError('Toastify-Error')}>Toastify-Error</button>
-      </center>
+      </center> */}
 {/* Toastify */}
     </main>
   )

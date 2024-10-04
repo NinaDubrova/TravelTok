@@ -6,7 +6,7 @@ import {RECENT_DATA} from "../../constants/recentTours.js";
 const RecentTours = () => {
   return (
     <div className={styles.recent}>
-        <h1>Недавно добавленные туры</h1>
+        <h1><a style={{textDecoration: "none", color: 'black', cursor: "pointer"}} href="/catalog">Недавно добавленные туры</a></h1>
         <div className={styles.container}>
             {RECENT_DATA.map((item, idx)=>{
                 return (
