@@ -1,3 +1,25 @@
-.env
-venv_traveltok_1
+# Django.
+*.log
+*.pot
+*.pyc
 __pycache__
+db.sqlite3
+media
+# Зависимости.
+venv_traveltok_1
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Для Visual Studio Code.
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+# Secret keys, databases.
+.env
+test.py
+*back-static/

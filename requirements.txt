@@ -1,6 +1,12 @@
 django
+django-cors-header
 django_rest_framework
-psycopg2-binary
-djangorestframework-simplejwt
+django_rest_framework-simplejwt
+drf-yasg
 pillow
+psycopg2-binary
+pyjwt
+python-dotenv
 qrcode
+
+
